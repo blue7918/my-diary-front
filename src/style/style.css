@@ -1,0 +1,24 @@
+.cell_valid {
+  transform: scale(1.01);
+}
+
+.cell_valid:hover {
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background-color: rgba(255, 226, 226, 0.5);
+  box-shadow: 1.5px 1.5px 0px 0px rgba(104, 104, 104, 0.1);
+}
+.cell_selected {
+  box-shadow: 1.5px 1.5px 0px 0px rgba(170, 91, 66, 0.1);
+  transform: scale(1.02);
+  background: #f3c5b6;
+  color: #aa5b42;
+  font-weight: 600;
+}
+.not_valid_border {
+  background-color: rgba(220, 220, 220, 0.1);
+  border: 1.5px solid rgba(152, 152, 152, 0.2);
+}
+.not_valid {
+  color: #c4c4c4;
+}
